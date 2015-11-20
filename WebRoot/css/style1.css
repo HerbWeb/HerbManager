@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+@import url("reset.css");
+/*主体部分*/
+/*.main{
+	background:url("../images/login/header_bg.png") top repeat-x;
+	min-width:1000px;
+	overflow:hidden;
+	width:100%;
+	height:auto
+}
+.header{
+	background:url("../images/login/logo_ico.png") no-repeat top left;
+	margin:123px auto 0;
+	width:330px;
+	height:41px
+}
+/*中部内容部分*/
+.content{
+	margin:140px auto 0;
+	width:348px;
+	height:380px;
+	border:1px solid #ededed;
+	background: rgb(235,246,244);
+}
+#register{
+	display: none;
+}
+.content h4{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: rgb(231,102,34);
+	margin-bottom: 30px;
+	padding: 15px 0;
+}
+.input{
+	margin:0 auto 11px;
+	width:290px
+}
+.input_all{
+	border:none;
+	color:#555;
+	font-size:14px;
+	line-height:30px;
+	padding:6px 0 6px 46px;
+	vertical-align:middle;
+	width:250px;
+	height:30px
+}
+.name{
+	background:url("../images/login/account.png") no-repeat  center
+}
+.name_now{
+	background:url("../images/login/Onaccount.png") no-repeat  center
+}
+.password{
+	background:url("../images/login/mima.png") no-repeat center
+}
+.password_now{
+	background:url("../images/login/Onmima.png") no-repeat center
+}
+.password2{
+	background:url("../images/login/mima.png") no-repeat center
+}
+.password_now2{
+	background:url("../images/login/Onmima.png") no-repeat center
+}
+.enter{
+	margin-top:15px
+}
+.enter #toRegister,
+.enter #toLogin{
+	width: 270px;
+	border-radius: 3px;
+	margin: 0 auto;
+	display: block;
+	padding: 10px 0;
+	background: rgb(76,188,168);
+	border: 0;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.label{
+	margin: 0 auto;
+	display: block;
+	padding: 10px 0;
+	border: 0;
+	font-size: 14px;
+	text-align: center;
+}
+.button{
+	background:url("../images/login/regist.png") no-repeat center;
+	border:none;
+	cursor:pointer;
+	margin:0 auto;
+	width:277px;
+	height:42px
+}
+.checkbox{
+	font-size:12px;
+	margin:0 auto;
+	width:290px;
+	height:30px
+}
+.checkbox input{
+	display:block;
+	float:left;
+	margin-right:4px
+}
+.checkbox span{
+	display:block;
+	float:left;
+	xheight:20px;
+	line-height:20px;
+	*line-height:22px
+}

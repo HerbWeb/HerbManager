@@ -1,0 +1,33 @@
+.header{
+	background: rgb(26,93,171);
+	padding: 20px 0;
+	color: #fff;
+}
+.header .logout a{
+	color: #fff;
+}
+.content{
+	padding-top: 30px;
+}
+.nav-left{
+	padding-top: 42px;
+}
+.nav-left a{
+	color: #000;
+}
+.nav-left .collapsed{
+	display: block;
+}
+.right-part>form>h5{
+	border-bottom: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.form-control{
+	margin-bottom: 10px;
+}
+.submit-wrap{
+	text-align: right;
+	padding: 10px 15px;
+}
